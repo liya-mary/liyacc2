@@ -1,0 +1,73 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url('/images/bg.jpg');
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+.div1{
+    border: 3px solid rgb(56, 96, 97);
+    margin-top: 16%;
+    margin-left: 23%;
+    margin-right: 30%;
+    background-color:rgb(240, 240, 240);
+    min-width:50%;
+}
+.div2{
+    margin-top: 20%;
+}
+.container{
+    border: 5px,solid,green;
+}
+#label1{
+ padding-top: 6%;
+ color: rgb(56, 96, 97);
+ font-weight: bolder;
+ font-size: larger;
+}
+#label2{
+ padding-top: 10px;
+ color: rgb(56, 96, 97);
+ font-weight: bolder;
+ font-size: larger;
+}
+.inp1{
+    margin-top: 3%;
+    margin-left: 21px;
+    font-size: smaller;
+    color:rgb(85, 82, 82);
+    padding: 6px;
+   
+}
+.inp2{
+    margin-top: 3%;
+    margin-left: 2px;
+    font-size: smaller;
+    color:rgb(85, 82, 82);
+    padding: 6px;
+}
+#btn1{
+    margin-top: 10px;
+    margin-left: 6%;
+    background-color:rgb(56, 96, 97);
+    color: cornsilk;
+    padding: 6px;
+}
+#btn2{
+    margin-top: 10px;
+    margin-left: 10px;
+    background-color:rgb(56, 96, 97);
+    color: cornsilk;
+    padding: 6px;
+    margin-bottom: 5%;
+    
+}
+#btn1:hover{
+    color: rgb(43, 72, 73);
+    background-color:lightgray;
+}
+#btn2:hover{
+    color: rgb(43, 72, 73);
+    background-color:lightgray;
+}

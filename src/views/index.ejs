@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/css/bootstrap.min.css" rel="stylesheet">
+	<link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="/css/style.css">
+    <title><%=title%></title>
+</head>
+<body>
+    
+    <div class="container">
+        <div class="div1">
+            <center>
+                <form action="/add" method="GET">
+                    <label for="name" id="label1" >Name: <input type="text" name="Name" placeholder="Enter your Name" class="inp1" required ></label> <br>
+                    <label for="email" id="label2">Email id: <input type="email" name="email" placeholder="Enter a valid Email " class="inp2" required ></label> <br>
+                    <input type="submit" id="btn1" > <input type="submit" value="Send Mail" id="btn2">
+                </form>
+            </center>
+        </div>     
+    </div>
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
+	<script src="/js/bootstrap.min.js"></script>
+</body>
+</html>
